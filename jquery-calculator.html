@@ -78,6 +78,29 @@
 $(document).ready(function() {
 
 // Your code here...
+var firstNumber 
+var secondNumber
+var operator
+var result
+
+$(".number").click(function(event){
+  console.log(this.value);
+  if(firstNumber === undefined) {
+    firstNumber = this.value;
+    console.log(firstNumber);
+  };
+  if(firstNumber != undefined) {
+    secondNumber = this.value;
+    console.log(secondNumber);
+  };
+
+  $(".operator").click(function(event){
+    console.log(this.value)
+  })
+  
+  
+})
+
 
 
 });
