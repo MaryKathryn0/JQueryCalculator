@@ -1,4 +1,44 @@
 /* Select all spans that are immediate children of buttons */
 button > span {
-    font-size: 2.5rem;
+    font-size: 4rem;
+}
+
+#calcBase {
+    background-color: #d8cbd6;
+}
+.card {
+    background-color: #d8cbd6;
+}
+.number{
+    border-radius: 17px;
+    background: #d8cbd6;
+    box-shadow:  -5px -5px 7px #d2c5d0, 
+             5px 5px 7px #ded1dc;
+}
+
+.operator{
+    border-radius: 17px;
+    background: #d8cbd6;
+    box-shadow:  -5px -5px 7px #d2c5d0, 
+             5px 5px 7px #ded1dc;
+}
+.equal{
+    border-radius: 17px;
+    background: #d8cbd6;
+    box-shadow:  -5px -5px 7px #d2c5d0, 
+             5px 5px 7px #ded1dc;
+}
+.clear{
+    border-radius: 17px;
+    background: #d8cbd6;
+    box-shadow:  -5px -5px 7px #d2c5d0, 
+             5px 5px 7px #ded1dc;
+}
+.btn-success:not(:disabled):not(.disabled).active:focus, .btn-success:not(:disabled):not(.disabled):active:focus, .show>.btn-success.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem;
+}
+
+.btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
+    color: #fff;
+ 
 }
